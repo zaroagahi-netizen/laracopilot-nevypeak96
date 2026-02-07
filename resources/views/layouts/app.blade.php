@@ -86,6 +86,12 @@
         @yield('content')
     </main>
     
+    <!-- Subscription Banner -->
+    <x-subscription-banner />
+    
+    <!-- Birthday Popup (conditional) -->
+    <x-birthday-popup />
+    
     <!-- Footer -->
     <footer class="bg-gray-800 dark:bg-gray-950 text-white mt-16">
         <div class="max-w-7xl mx-auto px-4 py-12 grid grid-cols-1 md:grid-cols-4 gap-8">
